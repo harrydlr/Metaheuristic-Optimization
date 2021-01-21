@@ -13,7 +13,7 @@ Every time we choose an edge from the saving list we’ll apply this process.
 
 This whole process can be improved using a very simple mechanism, a cache of pseudo-optimized routes. In the end, we choose the solution with the lowest cost. But how can we take advantage of the other routes built for the other solutions? Every time we build a route, we save it on a list. This list will contain all the routes of all the solutions. To improve the best solution, we look to see if any of its routes are on this list, and if we find a route with the same edges, we will replace it with this one if its cost is lower than the original one.
 
-# MD-CVRP
+# MD-VRP
 Algorithm that solves an extension of the VRP. In particular, the multi-depot VRP.
 We select k-depots randomly and we use euclidean distance to create k-clusters so that we'll finally have k CWS-BR problems.
 For future work we could apply the K-means algorithm to find the k most optimal clusters.
