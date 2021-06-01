@@ -1,5 +1,5 @@
 # Metaheuristic-Optimization
-In order to study the Vehice Routing Problem (VRP) and the CWS algorithm we developed 2 algorithms:
+In order to study the Vehicle Routing Problem (VRP) and the CWS algorithm we developed 2 algorithms:
 
 
 # CWS-BR
